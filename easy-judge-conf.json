@@ -1,0 +1,8 @@
+{
+  "src_dirs": "./test/",
+  "src_dir": "",
+  "ans_dir": "./test/.ans",
+  "src_langs": {
+    "py": "python3"
+  }
+}
