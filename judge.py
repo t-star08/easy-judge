@@ -158,7 +158,7 @@ def do_dirs(conf):
 
 
 def do_dir(conf):
-    usr_name, score = scoring(conf, 0, **prescoring(conf))
+    usr_name, score = scoring(conf, 0, 1, **prescoring(conf))
 
     return {usr_name: score}
 
